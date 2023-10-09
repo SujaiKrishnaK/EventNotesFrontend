@@ -96,7 +96,7 @@ const Notes = () => {
       .post("/addtodo", {
         name: taskValue,
         completed: false,
-        // createdDate: startDate,
+        createdDate: startDate,
       })
       .then((res) => {
         setIsLoading(false);

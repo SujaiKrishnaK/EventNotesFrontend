@@ -4,7 +4,8 @@ import Cookies from 'js-cookie';
 // Set the default base URL for your API
 // axios.defaults.baseURL = 'https://your-api-url.com';
 const api = axios.create({
-    baseURL:'https://new-app-fuaa.onrender.com'
+    // baseURL:'https://new-app-fuaa.onrender.com'
+    baseURL:'http://localhost:4200'
 })
 // Add an interceptor to include the JWT token with all requests
 api.interceptors.request.use(
